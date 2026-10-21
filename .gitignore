@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.cache
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large Datasets (Excluded from repository)
+Helmet_Detection_DataSet/
+**/Helmet_Detection_DataSet/
+Traffic-System-Safety-Monitor-main/DataSet/
+**/DataSet/
+
+# Duplicate / Legacy folder
+Bike Helmet Detection System/
+
+# Generated outputs & tracking runs (prevent >100MB video commits)
+output/
+**/output/
+runs/
+**/runs/
+
+# Log files & temp files
+*.log
+*.tmp
+*.bak
